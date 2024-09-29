@@ -12,7 +12,7 @@ return new class extends Migration
     public function up()
     {
         Schema::table('estudiantes', function (Blueprint $table) {
-            $table->dropColumn(['calificaciones', 'genero']); // Eliminar dos columnas
+            $table->dropColumn(['calificaciones', 'genero']);
         });
     }
 

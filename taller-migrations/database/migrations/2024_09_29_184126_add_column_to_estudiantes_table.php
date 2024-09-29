@@ -9,7 +9,7 @@ return new class extends Migration
     public function up()
 {
     Schema::table('estudiantes', function (Blueprint $table) {
-        $table->string('correo')->after('nombre')->unique(); // Añadir una columna única
+        $table->string('correo')->after('nombre')->unique(); 
     });
 }
 
